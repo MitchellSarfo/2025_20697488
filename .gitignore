@@ -5,3 +5,7 @@
 *.exe
 *.so
 build/
+# Exercise 5 packaging / build artefacts
+Worksheet3/release_dynamic/
+Worksheet3/Exercise5_dynamic.zip
+Worksheet3/libadder.exp
