@@ -12,6 +12,20 @@
 
 #ifndef MATHSLIBADDER_H
 #define MATHSLIBADDER_H
+/** @file
+ * This file contains the declarations of all exported functions in the maths library.
+ */
+
+/**
+ * Adding function
+ *
+ * This function adds two numbers
+ * @param a is the first number
+ * @param b is the second number
+ * @return sum of a and b
+ */
+int add(int a, int b);
+
 
 #if defined(WIN32) || defined(_WIN32)
   #ifdef maths_STATIC
@@ -36,3 +50,4 @@ MATHSLIBAPI int add(int a, int b);
 #endif
 
 // end = adder.h ==============
+
