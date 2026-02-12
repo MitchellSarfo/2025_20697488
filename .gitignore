@@ -12,3 +12,5 @@ Worksheet3/libadder.exp
 **/build*/
 Worksheet4/calc_cmake/build_shared/
 *.pdb
+release_ex4/
+Worksheet4_Exercise4_dynamic.zip
