@@ -3035,8 +3035,8 @@ MSCGEN_TOOL            =
 # contain msc files that are included in the documentation (see the \mscfile
 # command).
 
-MSCFILE_DIRS           =
-INPUT                  = .
+
+INPUT                  = ../Worksheet3 ../Worksheet4
 RECURSIVE              = YES
 FILE_PATTERNS          = *.h *.hpp *.c *.cpp
 EXTRACT_ALL            = YES
