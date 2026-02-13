@@ -3043,3 +3043,26 @@ EXTRACT_ALL            = YES
 
 EXCLUDE_PATTERNS       = */build_*/* */CMakeFiles/* */_deps/* */out/* */bin/* */lib/*
 
+INPUT = ../Worksheet3 ../Worksheet4
+RECURSIVE = YES
+FILE_PATTERNS = *.h *.hpp *.c *.cpp
+EXTRACT_ALL = YES
+OUTPUT_DIRECTORY =
+RECURSIVE = YES
+INPUT = ../Worksheet3 ../Worksheet4
+FILE_PATTERNS = *.c *.h *.cpp *.hpp
+EXTRACT_ALL = YES
+
+PROJECT_NAME           = "Worksheet 5"
+OUTPUT_DIRECTORY       =
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+
+INPUT                  = src include
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.hpp *.c *.cpp
+EXTRACT_ALL            = YES
+
+# Optional but nice:
+GENERATE_TREEVIEW      = YES
+
