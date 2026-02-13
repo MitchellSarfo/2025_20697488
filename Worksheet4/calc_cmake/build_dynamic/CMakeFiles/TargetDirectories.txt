@@ -1,0 +1,4 @@
+C:/Users/papas/2025_20697488/Worksheet4/calc_cmake/build_shared/CMakeFiles/maths.dir
+C:/Users/papas/2025_20697488/Worksheet4/calc_cmake/build_shared/CMakeFiles/calc.dir
+C:/Users/papas/2025_20697488/Worksheet4/calc_cmake/build_shared/CMakeFiles/ALL_BUILD.dir
+C:/Users/papas/2025_20697488/Worksheet4/calc_cmake/build_shared/CMakeFiles/ZERO_CHECK.dir

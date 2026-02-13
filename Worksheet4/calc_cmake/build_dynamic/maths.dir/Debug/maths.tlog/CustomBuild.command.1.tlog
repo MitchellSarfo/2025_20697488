@@ -1,0 +1,10 @@
+^C:\USERS\PAPAS\2025_20697488\WORKSHEET4\CALC_CMAKE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/papas/2025_20697488/Worksheet4/calc_cmake -BC:/Users/papas/2025_20697488/Worksheet4/calc_cmake/build_shared --check-stamp-file C:/Users/papas/2025_20697488/Worksheet4/calc_cmake/build_shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
