@@ -3018,6 +3018,7 @@ GENERATE_LEGEND        = YES
 # files.
 # The default value is: YES.
 
+
 DOT_CLEANUP            = YES
 
 # You can define message sequence charts within Doxygen comments using the \msc
@@ -3035,3 +3036,9 @@ MSCGEN_TOOL            =
 # command).
 
 MSCFILE_DIRS           =
+INPUT                  = .
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.hpp *.c *.cpp
+EXTRACT_ALL            = YES
+GENERATE_HTML          = YES
+OUTPUT_DIRECTORY       = html
