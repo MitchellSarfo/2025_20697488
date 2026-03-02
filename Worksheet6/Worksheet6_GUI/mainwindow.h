@@ -24,7 +24,7 @@ signals:
 private slots:
     void handleButton1();
     void handleButton2();
-
+void on_actionOpen_File_triggered();
     // Exercise 4.3.2: TreeView click handler
     void handleTreeClicked(const QModelIndex &index);
 
