@@ -11,6 +11,12 @@ qt_add_executable(Worksheet6_GUI
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    modelpart.h modelpart.cpp
+    modelpartlist.h modelpartlist.cpp
+    ModelPart.h
+    ModelPart.cpp
+    ModelPartList.h
+    ModelPartList.cpp
 )
 
 qt_add_translations(

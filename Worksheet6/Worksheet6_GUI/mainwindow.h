@@ -2,10 +2,13 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QModelIndex>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
+
+class ModelPartList;   // Exercise 4
 
 class MainWindow : public QMainWindow
 {
@@ -22,8 +25,12 @@ private slots:
     void handleButton1();
     void handleButton2();
 
+    // Exercise 4.3.2: TreeView click handler
+    void handleTreeClicked(const QModelIndex &index);
+
 private:
     Ui::MainWindow *ui;
+    ModelPartList *partList = nullptr;
 };
 
 #endif // MAINWINDOW_H
