@@ -15,6 +15,9 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+signals:
+    void statusUpdateMessage(const QString &message, int timeout);
+
 private slots:
     void handleButton1();
     void handleButton2();
