@@ -2,13 +2,14 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QString>
 #include <QModelIndex>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
-class ModelPartList;   // Exercise 4
+class ModelPartList;   // forward decl (your model)
 
 class MainWindow : public QMainWindow
 {
@@ -24,9 +25,10 @@ signals:
 private slots:
     void handleButton1();
     void handleButton2();
-void on_actionOpen_File_triggered();
-    // Exercise 4.3.2: TreeView click handler
     void handleTreeClicked(const QModelIndex &index);
+
+    // QAction triggered(bool) -> we accept the bool to avoid any connection issues
+    void on_actionOpen_File_triggered(bool checked);
 
 private:
     Ui::MainWindow *ui;
