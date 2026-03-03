@@ -3,13 +3,13 @@
 
 #include <QMainWindow>
 #include <QString>
-#include <QModelIndex>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
-class ModelPartList;   // forward decl (your model)
+class ModelPartList;
+class QModelIndex;
 
 class MainWindow : public QMainWindow
 {
@@ -27,8 +27,8 @@ private slots:
     void handleButton2();
     void handleTreeClicked(const QModelIndex &index);
 
-    // QAction triggered(bool) -> we accept the bool to avoid any connection issues
-    void on_actionOpen_File_triggered(bool checked);
+    // IMPORTANT: keep ONLY this version (no bool) to avoid the “ambiguous overloaded” error
+    void on_actionOpen_File_triggered();
 
 private:
     Ui::MainWindow *ui;

@@ -3,6 +3,8 @@ project(Worksheet6_GUI LANGUAGES CXX)
 
 find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets LinguistTools)
 
+set(CMAKE_AUTORCC ON)
+
 qt_standard_project_setup()
 
 qt_add_executable(Worksheet6_GUI
@@ -11,16 +13,17 @@ qt_add_executable(Worksheet6_GUI
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
-
     modelpart.cpp
     modelpart.h
     modelpartlist.cpp
     modelpartlist.h
-    resource.qrc
-resource.qrc
+    icons.qrc
+    optiondialog.h
+    optiondialog.cpp
+    optiondialog.ui
+
 
 )
-
 
 
 qt_add_translations(
