@@ -26,7 +26,8 @@ private slots:
     void handleButton1();
     void handleButton2();
     void handleTreeClicked(const QModelIndex &index);
-
+private slots:
+    void on_actionItem_Options_triggered(bool checked);
     // IMPORTANT: keep ONLY this version (no bool) to avoid the “ambiguous overloaded” error
     void on_actionOpen_File_triggered();
 

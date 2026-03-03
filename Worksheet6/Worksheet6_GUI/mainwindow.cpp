@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
+#include <QAction>
+#include <QMenu>
 #include "modelpartlist.h"
 #include "modelpart.h"
 #include "optiondialog.h"
@@ -15,7 +16,15 @@ MainWindow::MainWindow(QWidget *parent)
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    // Make the TreeView show actions on right-click
+    ui->treeView->setContextMenuPolicy(Qt::ActionsContextMenu);
 
+    // Ensure the action is attached to the TreeView
+    ui->treeView->addAction(ui->actionItem_Options);
+
+    // Connect action to slot
+    connect(ui->actionItem_Options, &QAction::triggered,
+            this, &MainWindow::on_actionItem_Options_triggered);
     // Status bar hookup
     connect(this, &MainWindow::statusUpdateMessage,
             ui->statusbar, &QStatusBar::showMessage);
@@ -108,4 +117,9 @@ void MainWindow::on_actionOpen_File_triggered()
     } else {
         emit statusUpdateMessage(tr("Selected: %1").arg(fileName), 0);
     }
+}
+void MainWindow::on_actionItem_Options_triggered(bool checked)
+{
+    Q_UNUSED(checked);
+    emit statusUpdateMessage("Add Option triggered", 2000);
 }
