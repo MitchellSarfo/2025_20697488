@@ -1,0 +1,10 @@
+^C:\2025_20697488\WORKSHEET7\EXERCISE1 BUILD\CMAKEFILES\4A93829F94CEB6C19C8BCA09DCFBD279\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/2025_20697488/Worksheet7/Exercise1 "-BC:/2025_20697488/Worksheet7/Exercise1 Build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/2025_20697488/Worksheet7/Exercise1 Build/CylinderExample.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
