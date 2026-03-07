@@ -1,0 +1,4 @@
+C:/Users/papas/2025_20697488/Worksheet7/Exercise2 Build/CMakeFiles/vtkexample_vr1.dir
+C:/Users/papas/2025_20697488/Worksheet7/Exercise2 Build/CMakeFiles/VRBindings.dir
+C:/Users/papas/2025_20697488/Worksheet7/Exercise2 Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/papas/2025_20697488/Worksheet7/Exercise2 Build/CMakeFiles/ZERO_CHECK.dir
