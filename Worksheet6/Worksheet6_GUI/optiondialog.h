@@ -21,6 +21,11 @@ public:
 
     void setVisibleChecked(bool v);
     bool isVisibleChecked() const;
+    // Add these to the 'public' section of your OptionDialog class
+    int getR() const { return ui->spinBoxR->value(); }
+    int getG() const { return ui->spinBoxG->value(); }
+    int getB() const { return ui->spinBoxB->value(); }
+    QString getName() const { return ui->lineEdit->text(); }
 
 private:
     Ui::OptionDialog *ui;

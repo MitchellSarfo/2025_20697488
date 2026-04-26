@@ -21,6 +21,9 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Ensure the action is attached to the TreeView
     ui->treeView->addAction(ui->actionItem_Options);
+    ui->pushButton->setIcon(QIcon(":/fileopen.png"));
+ui->treeView->addAction(ui->actionItem_Options);
+
 
     // Connect action to slot
     connect(ui->actionItem_Options, &QAction::triggered,
@@ -122,4 +125,26 @@ void MainWindow::on_actionItem_Options_triggered(bool checked)
 {
     Q_UNUSED(checked);
     emit statusUpdateMessage("Add Option triggered", 2000);
+}
+void MainWindow::on_actionItem_Options_triggered() {
+    // 1. Create the dialog
+    OptionDialog dialog(this);
+
+    // 2. Show the dialog and wait for the user to click OK
+    if (dialog.exec() == QDialog::Accepted) {
+
+        // 3. Grab the RGB values from the dialog
+        int r = dialog.getR();
+        int g = dialog.getG();
+        int b = dialog.getB();
+
+        // 4. Update your status bar (Worksheet 6 requirement)
+        QString msg = QString("Color set to RGB: %1, %2, %3").arg(r).arg(g).arg(b);
+        emit statusUpdateMessage(msg, 0);
+
+        // --- PREVIEW FOR WORKSHEET 7 ---
+        // In Worksheet 7, you will add a line here like:
+        // selectedPart->setColor(r, g, b);
+        // renderer->Render();
+    }
 }
