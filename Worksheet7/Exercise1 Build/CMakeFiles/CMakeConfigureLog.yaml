@@ -35,13 +35,14 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\VTK\\bin"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\OpenVR\\bin\\win64"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OpenVR\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\papas\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "message-v1"
@@ -59,9 +60,9 @@ events:
       The output was:
       0
       MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-      Build started 06/03/2026 15:54:05.
+      Build started 07/03/2026 20:18:13.
       
-      Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -74,7 +75,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -82,13 +83,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.74
+      Time Elapsed 00:00:01.04
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -96,7 +97,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/4.3.0-rc2/CompilerIdC/CompilerIdC.exe
+        C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/4.3.0-rc2/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "find-v1"
@@ -121,26 +122,27 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/VTK/bin/"
-      - "C:/Windows/System32/wbem/"
+      - "C:/OpenVR/bin/win64/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\VTK\\bin"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\OpenVR\\bin\\win64"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OpenVR\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\papas\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
@@ -165,24 +167,21 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/VTK/bin/"
-      - "C:/Windows/System32/wbem/"
+      - "C:/OpenVR/bin/win64/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files (x86)/VTK/bin/lld-link.com"
-      - "C:/Program Files (x86)/VTK/bin/lld-link.exe"
-      - "C:/Program Files (x86)/VTK/bin/lld-link"
-      - "C:/Windows/System32/wbem/lld-link.com"
-      - "C:/Windows/System32/wbem/lld-link.exe"
-      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/OpenVR/bin/win64/lld-link.com"
+      - "C:/OpenVR/bin/win64/lld-link.exe"
+      - "C:/OpenVR/bin/win64/lld-link"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
@@ -198,19 +197,23 @@ events:
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/VTK/bin/lld-link.com"
+      - "C:/Program Files (x86)/VTK/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VTK/bin/lld-link"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/lld-link.com"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\VTK\\bin"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\OpenVR\\bin\\win64"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OpenVR\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\papas\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
@@ -233,26 +236,27 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/VTK/bin/"
-      - "C:/Windows/System32/wbem/"
+      - "C:/OpenVR/bin/win64/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\VTK\\bin"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\OpenVR\\bin\\win64"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OpenVR\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\papas\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
@@ -275,24 +279,21 @@ events:
       - "mt"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/VTK/bin/"
-      - "C:/Windows/System32/wbem/"
+      - "C:/OpenVR/bin/win64/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
-      - "C:/Program Files (x86)/VTK/bin/mt.com"
-      - "C:/Program Files (x86)/VTK/bin/mt.exe"
-      - "C:/Program Files (x86)/VTK/bin/mt"
-      - "C:/Windows/System32/wbem/mt.com"
-      - "C:/Windows/System32/wbem/mt.exe"
-      - "C:/Windows/System32/wbem/mt"
+      - "C:/OpenVR/bin/win64/mt.com"
+      - "C:/OpenVR/bin/win64/mt.exe"
+      - "C:/OpenVR/bin/win64/mt"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
@@ -308,19 +309,23 @@ events:
       - "C:/Program Files/CMake/bin/mt.com"
       - "C:/Program Files/CMake/bin/mt.exe"
       - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files (x86)/VTK/bin/mt.com"
+      - "C:/Program Files (x86)/VTK/bin/mt.exe"
+      - "C:/Program Files (x86)/VTK/bin/mt"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/mt.com"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/mt.exe"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/mt"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\VTK\\bin"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\OpenVR\\bin\\win64"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OpenVR\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\papas\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
@@ -343,26 +348,27 @@ events:
       - "lib"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/VTK/bin/"
-      - "C:/Windows/System32/wbem/"
+      - "C:/OpenVR/bin/win64/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\VTK\\bin"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\OpenVR\\bin\\win64"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OpenVR\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\papas\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
@@ -391,13 +397,14 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\VTK\\bin"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\OpenVR\\bin\\win64"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OpenVR\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\papas\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "message-v1"
@@ -415,9 +422,9 @@ events:
       The output was:
       0
       MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-      Build started 06/03/2026 15:54:08.
+      Build started 07/03/2026 20:18:15.
       
-      Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -430,7 +437,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -438,13 +445,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.14
+      Time Elapsed 00:00:00.74
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -452,7 +459,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/4.3.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/4.3.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -477,24 +484,21 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/VTK/bin/"
-      - "C:/Windows/System32/wbem/"
+      - "C:/OpenVR/bin/win64/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files (x86)/VTK/bin/lld-link.com"
-      - "C:/Program Files (x86)/VTK/bin/lld-link.exe"
-      - "C:/Program Files (x86)/VTK/bin/lld-link"
-      - "C:/Windows/System32/wbem/lld-link.com"
-      - "C:/Windows/System32/wbem/lld-link.exe"
-      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/OpenVR/bin/win64/lld-link.com"
+      - "C:/OpenVR/bin/win64/lld-link.exe"
+      - "C:/OpenVR/bin/win64/lld-link"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
@@ -510,19 +514,23 @@ events:
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/VTK/bin/lld-link.com"
+      - "C:/Program Files (x86)/VTK/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VTK/bin/lld-link"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/lld-link.com"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\VTK\\bin"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\OpenVR\\bin\\win64"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OpenVR\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\papas\\AppData\\Local\\Microsoft\\WindowsApps"
   -
     kind: "find-v1"
@@ -547,13 +555,13 @@ events:
     names:
       - "rc"
     candidate_directories:
-      - "C:/Program Files (x86)/VTK/bin/"
-      - "C:/Windows/System32/wbem/"
+      - "C:/OpenVR/bin/win64/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
@@ -568,12 +576,9 @@ events:
       - "C:/Program Files (x86)/CylinderExample/sbin/"
       - "C:/Program Files (x86)/CylinderExample/"
     searched_directories:
-      - "C:/Program Files (x86)/VTK/bin/rc.com"
-      - "C:/Program Files (x86)/VTK/bin/rc.exe"
-      - "C:/Program Files (x86)/VTK/bin/rc"
-      - "C:/Windows/System32/wbem/rc.com"
-      - "C:/Windows/System32/wbem/rc.exe"
-      - "C:/Windows/System32/wbem/rc"
+      - "C:/OpenVR/bin/win64/rc.com"
+      - "C:/OpenVR/bin/win64/rc.exe"
+      - "C:/OpenVR/bin/win64/rc"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
@@ -589,6 +594,9 @@ events:
       - "C:/Program Files/CMake/bin/rc.com"
       - "C:/Program Files/CMake/bin/rc.exe"
       - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files (x86)/VTK/bin/rc.com"
+      - "C:/Program Files (x86)/VTK/bin/rc.exe"
+      - "C:/Program Files (x86)/VTK/bin/rc"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/rc.com"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/rc.exe"
       - "C:/Users/papas/AppData/Local/Microsoft/WindowsApps/rc"
@@ -631,13 +639,14 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\VTK\\bin"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\OpenVR\\bin\\win64"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OpenVR\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\papas\\AppData\\Local\\Microsoft\\WindowsApps"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CylinderExample"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -654,8 +663,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qbn1td"
-      binary: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qbn1td"
+      source: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qzsope"
+      binary: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qzsope"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -665,39 +674,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qbn1td'
+        Change Dir: 'C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qzsope'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_150ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cf4c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 06/03/2026 15:54:11.
+        Build started 07/03/2026 20:18:17.
         
-        Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qbn1td\\cmTC_150ff.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qzsope\\cmTC_cf4c4.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qbn1td\\Debug\\".
-          Creating directory "cmTC_150ff.dir\\Debug\\cmTC_150ff.tlog\\".
+          Creating directory "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qzsope\\Debug\\".
+          Creating directory "cmTC_cf4c4.dir\\Debug\\cmTC_cf4c4.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_150ff.dir\\Debug\\cmTC_150ff.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_150ff.dir\\Debug\\cmTC_150ff.tlog\\unsuccessfulbuild".
+          Creating "cmTC_cf4c4.dir\\Debug\\cmTC_cf4c4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cf4c4.dir\\Debug\\cmTC_cf4c4.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_150ff.dir\\Debug\\\\" /Fd"cmTC_150ff.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cf4c4.dir\\Debug\\\\" /Fd"cmTC_cf4c4.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35725 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_150ff.dir\\Debug\\\\" /Fd"cmTC_150ff.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cf4c4.dir\\Debug\\\\" /Fd"cmTC_cf4c4.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qbn1td\\Debug\\cmTC_150ff.exe" /INCREMENTAL /ILK:"cmTC_150ff.dir\\Debug\\cmTC_150ff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qbn1td/Debug/cmTC_150ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qbn1td/Debug/cmTC_150ff.lib" /MACHINE:X64  /machine:x64 cmTC_150ff.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_150ff.vcxproj -> C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qbn1td\\Debug\\cmTC_150ff.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qzsope\\Debug\\cmTC_cf4c4.exe" /INCREMENTAL /ILK:"cmTC_cf4c4.dir\\Debug\\cmTC_cf4c4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qzsope/Debug/cmTC_cf4c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qzsope/Debug/cmTC_cf4c4.lib" /MACHINE:X64  /machine:x64 cmTC_cf4c4.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_cf4c4.vcxproj -> C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qzsope\\Debug\\cmTC_cf4c4.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_150ff.dir\\Debug\\cmTC_150ff.tlog\\unsuccessfulbuild".
-          Touching "cmTC_150ff.dir\\Debug\\cmTC_150ff.tlog\\cmTC_150ff.lastbuildstate".
-        Done Building Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qbn1td\\cmTC_150ff.vcxproj" (default targets).
+          Deleting file "cmTC_cf4c4.dir\\Debug\\cmTC_cf4c4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cf4c4.dir\\Debug\\cmTC_cf4c4.tlog\\cmTC_cf4c4.lastbuildstate".
+        Done Building Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qzsope\\cmTC_cf4c4.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.07
+        Time Elapsed 00:00:00.63
         
       exitCode: 0
   -
@@ -737,8 +746,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-2obnwq"
-      binary: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-2obnwq"
+      source: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-znsyzl"
+      binary: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-znsyzl"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -749,39 +758,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-2obnwq'
+        Change Dir: 'C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-znsyzl'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fd768.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_78415.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 06/03/2026 15:54:13.
+        Build started 07/03/2026 20:18:18.
         
-        Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-2obnwq\\cmTC_fd768.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-znsyzl\\cmTC_78415.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-2obnwq\\Debug\\".
-          Creating directory "cmTC_fd768.dir\\Debug\\cmTC_fd768.tlog\\".
+          Creating directory "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-znsyzl\\Debug\\".
+          Creating directory "cmTC_78415.dir\\Debug\\cmTC_78415.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_fd768.dir\\Debug\\cmTC_fd768.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_fd768.dir\\Debug\\cmTC_fd768.tlog\\unsuccessfulbuild".
+          Creating "cmTC_78415.dir\\Debug\\cmTC_78415.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_78415.dir\\Debug\\cmTC_78415.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_fd768.dir\\Debug\\\\" /Fd"cmTC_fd768.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_78415.dir\\Debug\\\\" /Fd"cmTC_78415.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35725 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_fd768.dir\\Debug\\\\" /Fd"cmTC_fd768.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_78415.dir\\Debug\\\\" /Fd"cmTC_78415.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-2obnwq\\Debug\\cmTC_fd768.exe" /INCREMENTAL /ILK:"cmTC_fd768.dir\\Debug\\cmTC_fd768.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-2obnwq/Debug/cmTC_fd768.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-2obnwq/Debug/cmTC_fd768.lib" /MACHINE:X64  /machine:x64 cmTC_fd768.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_fd768.vcxproj -> C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-2obnwq\\Debug\\cmTC_fd768.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-znsyzl\\Debug\\cmTC_78415.exe" /INCREMENTAL /ILK:"cmTC_78415.dir\\Debug\\cmTC_78415.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-znsyzl/Debug/cmTC_78415.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-znsyzl/Debug/cmTC_78415.lib" /MACHINE:X64  /machine:x64 cmTC_78415.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_78415.vcxproj -> C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-znsyzl\\Debug\\cmTC_78415.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_fd768.dir\\Debug\\cmTC_fd768.tlog\\unsuccessfulbuild".
-          Touching "cmTC_fd768.dir\\Debug\\cmTC_fd768.tlog\\cmTC_fd768.lastbuildstate".
-        Done Building Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-2obnwq\\cmTC_fd768.vcxproj" (default targets).
+          Deleting file "cmTC_78415.dir\\Debug\\cmTC_78415.tlog\\unsuccessfulbuild".
+          Touching "cmTC_78415.dir\\Debug\\cmTC_78415.tlog\\cmTC_78415.lastbuildstate".
+        Done Building Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-znsyzl\\cmTC_78415.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.99
+        Time Elapsed 00:00:00.66
         
       exitCode: 0
   -
@@ -825,8 +834,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-os1qgg"
-      binary: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-os1qgg"
+      source: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-w9uphw"
+      binary: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-w9uphw"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -837,39 +846,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-os1qgg'
+        Change Dir: 'C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-w9uphw'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9e904.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a8bd4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 06/03/2026 15:54:15.
+        Build started 07/03/2026 20:18:19.
         
-        Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-os1qgg\\cmTC_9e904.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-w9uphw\\cmTC_a8bd4.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-os1qgg\\Debug\\".
-          Creating directory "cmTC_9e904.dir\\Debug\\cmTC_9e904.tlog\\".
+          Creating directory "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-w9uphw\\Debug\\".
+          Creating directory "cmTC_a8bd4.dir\\Debug\\cmTC_a8bd4.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_9e904.dir\\Debug\\cmTC_9e904.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_9e904.dir\\Debug\\cmTC_9e904.tlog\\unsuccessfulbuild".
+          Creating "cmTC_a8bd4.dir\\Debug\\cmTC_a8bd4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a8bd4.dir\\Debug\\cmTC_a8bd4.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9e904.dir\\Debug\\\\" /Fd"cmTC_9e904.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-os1qgg\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a8bd4.dir\\Debug\\\\" /Fd"cmTC_a8bd4.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-w9uphw\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35725 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9e904.dir\\Debug\\\\" /Fd"cmTC_9e904.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-os1qgg\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a8bd4.dir\\Debug\\\\" /Fd"cmTC_a8bd4.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-w9uphw\\src.c"
           src.c
-        C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-os1qgg\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-os1qgg\\cmTC_9e904.vcxproj]
-        Done Building Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-os1qgg\\cmTC_9e904.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-w9uphw\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-w9uphw\\cmTC_a8bd4.vcxproj]
+        Done Building Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-w9uphw\\cmTC_a8bd4.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-os1qgg\\cmTC_9e904.vcxproj" (default target) (1) ->
+        "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-w9uphw\\cmTC_a8bd4.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-os1qgg\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-os1qgg\\cmTC_9e904.vcxproj]
+          C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-w9uphw\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-w9uphw\\cmTC_a8bd4.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.55
+        Time Elapsed 00:00:00.39
         
       exitCode: 1
   -
@@ -884,8 +893,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-cu26xd"
-      binary: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-cu26xd"
+      source: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-k35uoh"
+      binary: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-k35uoh"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -896,41 +905,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-cu26xd'
+        Change Dir: 'C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-k35uoh'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fe75d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f1bd4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 06/03/2026 15:54:17.
+        Build started 07/03/2026 20:18:20.
         
-        Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-cu26xd\\cmTC_fe75d.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-k35uoh\\cmTC_f1bd4.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-cu26xd\\Debug\\".
-          Creating directory "cmTC_fe75d.dir\\Debug\\cmTC_fe75d.tlog\\".
+          Creating directory "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-k35uoh\\Debug\\".
+          Creating directory "cmTC_f1bd4.dir\\Debug\\cmTC_f1bd4.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_fe75d.dir\\Debug\\cmTC_fe75d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_fe75d.dir\\Debug\\cmTC_fe75d.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f1bd4.dir\\Debug\\cmTC_f1bd4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f1bd4.dir\\Debug\\cmTC_f1bd4.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_fe75d.dir\\Debug\\\\" /Fd"cmTC_fe75d.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-cu26xd\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f1bd4.dir\\Debug\\\\" /Fd"cmTC_f1bd4.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-k35uoh\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35725 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_fe75d.dir\\Debug\\\\" /Fd"cmTC_fe75d.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-cu26xd\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f1bd4.dir\\Debug\\\\" /Fd"cmTC_f1bd4.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-k35uoh\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-cu26xd\\Debug\\cmTC_fe75d.exe" /INCREMENTAL /ILK:"cmTC_fe75d.dir\\Debug\\cmTC_fe75d.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-cu26xd/Debug/cmTC_fe75d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-cu26xd/Debug/cmTC_fe75d.lib" /MACHINE:X64  /machine:x64 cmTC_fe75d.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-cu26xd\\cmTC_fe75d.vcxproj]
-        Done Building Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-cu26xd\\cmTC_fe75d.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-k35uoh\\Debug\\cmTC_f1bd4.exe" /INCREMENTAL /ILK:"cmTC_f1bd4.dir\\Debug\\cmTC_f1bd4.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-k35uoh/Debug/cmTC_f1bd4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-k35uoh/Debug/cmTC_f1bd4.lib" /MACHINE:X64  /machine:x64 cmTC_f1bd4.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-k35uoh\\cmTC_f1bd4.vcxproj]
+        Done Building Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-k35uoh\\cmTC_f1bd4.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-cu26xd\\cmTC_fe75d.vcxproj" (default target) (1) ->
+        "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-k35uoh\\cmTC_f1bd4.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-cu26xd\\cmTC_fe75d.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-k35uoh\\cmTC_f1bd4.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.80
+        Time Elapsed 00:00:00.52
         
       exitCode: 1
   -
@@ -945,8 +954,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-pzqcv4"
-      binary: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-pzqcv4"
+      source: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qew5nd"
+      binary: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qew5nd"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -957,41 +966,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-pzqcv4'
+        Change Dir: 'C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qew5nd'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d2624.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3c857.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
-        Build started 06/03/2026 15:54:18.
+        Build started 07/03/2026 20:18:21.
         
-        Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-pzqcv4\\cmTC_d2624.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qew5nd\\cmTC_3c857.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-pzqcv4\\Debug\\".
-          Creating directory "cmTC_d2624.dir\\Debug\\cmTC_d2624.tlog\\".
+          Creating directory "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qew5nd\\Debug\\".
+          Creating directory "cmTC_3c857.dir\\Debug\\cmTC_3c857.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d2624.dir\\Debug\\cmTC_d2624.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d2624.dir\\Debug\\cmTC_d2624.tlog\\unsuccessfulbuild".
+          Creating "cmTC_3c857.dir\\Debug\\cmTC_3c857.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3c857.dir\\Debug\\cmTC_3c857.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d2624.dir\\Debug\\\\" /Fd"cmTC_d2624.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-pzqcv4\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3c857.dir\\Debug\\\\" /Fd"cmTC_3c857.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qew5nd\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35725 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d2624.dir\\Debug\\\\" /Fd"cmTC_d2624.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-pzqcv4\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3c857.dir\\Debug\\\\" /Fd"cmTC_3c857.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qew5nd\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-pzqcv4\\Debug\\cmTC_d2624.exe" /INCREMENTAL /ILK:"cmTC_d2624.dir\\Debug\\cmTC_d2624.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-pzqcv4/Debug/cmTC_d2624.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-pzqcv4/Debug/cmTC_d2624.lib" /MACHINE:X64  /machine:x64 cmTC_d2624.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-pzqcv4\\cmTC_d2624.vcxproj]
-        Done Building Project "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-pzqcv4\\cmTC_d2624.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qew5nd\\Debug\\cmTC_3c857.exe" /INCREMENTAL /ILK:"cmTC_3c857.dir\\Debug\\cmTC_3c857.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qew5nd/Debug/cmTC_3c857.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CMakeScratch/TryCompile-qew5nd/Debug/cmTC_3c857.lib" /MACHINE:X64  /machine:x64 cmTC_3c857.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qew5nd\\cmTC_3c857.vcxproj]
+        Done Building Project "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qew5nd\\cmTC_3c857.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-pzqcv4\\cmTC_d2624.vcxproj" (default target) (1) ->
+        "C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qew5nd\\cmTC_3c857.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-pzqcv4\\cmTC_d2624.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\papas\\2025_20697488\\Worksheet7\\Exercise1 Build\\CMakeFiles\\CMakeScratch\\TryCompile-qew5nd\\cmTC_3c857.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.72
+        Time Elapsed 00:00:00.51
         
       exitCode: 1
   -
@@ -1073,27 +1082,171 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/VTKConfig.cmake"
+        path: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/VTKConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/vtk-config.cmake"
+        path: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/vtk-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/lib/cps/VTK.cps"
+        path: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/lib/cps/VTK.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/lib/cps/vtk.cps"
+        path: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/lib/cps/vtk.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/share/cps/VTK.cps"
+        path: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/share/cps/VTK.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/share/cps/vtk.cps"
+        path: "C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/pkgRedirects/share/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/OpenVR/bin/win64/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/OpenVR/bin/win64/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/OpenVR/bin/win64/lib/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/OpenVR/bin/win64/lib/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/OpenVR/bin/win64/share/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/OpenVR/bin/win64/share/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/vtk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/VTK.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/vtk.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1130,13 +1283,14 @@ events:
       version: "9.6.0"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\VTK\\bin"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\OpenVR\\bin\\win64"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\OpenVR\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\papas\\AppData\\Local\\Microsoft\\WindowsApps"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CylinderExample"
       CMAKE_SYSTEM_PREFIX_PATH:

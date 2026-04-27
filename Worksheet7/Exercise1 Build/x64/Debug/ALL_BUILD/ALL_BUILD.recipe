@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\2025_20697488\Worksheet7\Exercise1 Build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\papas\2025_20697488\Worksheet7\Exercise1 Build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\2025_20697488\Worksheet7\Exercise1 Build\Debug\CylinderExample.exe</FullPath>
+      <FullPath>C:\Users\papas\2025_20697488\Worksheet7\Exercise1 Build\Debug\CylinderExample.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\2025_20697488\Worksheet7\Exercise1 Build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\papas\2025_20697488\Worksheet7\Exercise1 Build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
