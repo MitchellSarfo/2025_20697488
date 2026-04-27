@@ -1,0 +1,3 @@
+C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/CylinderExample.dir
+C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/papas/2025_20697488/Worksheet7/Exercise1 Build/CMakeFiles/ZERO_CHECK.dir

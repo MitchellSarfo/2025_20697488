@@ -1,0 +1,52 @@
+[33mbfb7f39[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Worksheet 7 Exercise 2 - VTK OpenVR setup
+[33me0f8f23[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Complete WS6: Added OptionDialog, RGB getters, and fixed icons
+[33m8133d67[m Worksheet 7 Exercise 2: add VR demo and build files
+[33mefd0c7e[m Worksheet 7: add current source files
+[33m42b51c1[m Worksheet 7 Exercise 1: add VTK cylinder example
+[33m90c5b4d[m Worksheet 6 Ex10: context menu action for tree view
+[33m4062ce3[m Worksheet 6 Ex9: custom dialog (OptionDialog) + statusbar output
+[33m373d2cb[m Worksheet 6: tree view + open file dialog
+[33m3068220[m WS6: progress up to toolbar/icons step
+[33ma5f6ce2[m Worksheet 6 Ex6: menu/toolbar Open File action
+[33m72be5d3[m Worksheet 6 Ex4.3.2: TreeView click shows selected item
+[33m228052b[m Worksheet 6 Ex3: status bar signal
+[33mb1f28fa[m Worksheet 6 Ex2: button slots + QMessageBox
+[33ma0c842c[m Stop tracking build folders
+[33md84a73d[m Worksheet 6 Ex1: UI layout
+[33mdd6b4ff[m WS5: docs via CMake+Doxygen + Pages deploy
+[33mc807d1e[m Exclude build folders from Doxygen
+[33m0cf4d9d[m Fix Doxygen INPUT for Worksheet5 docs
+[33m97972dc[m Fix Doxygen input so code appears
+[33ma2004f2[m Add Worksheet5 Doxyfile for Doxygen
+[33mc6c865a[m Restore Worksheet3 and Worksheet4 files
+[33m74979e1[m Restore Worksheet5 files
+[33m3066fc8[m Update doxygen-deploy.yml
+[33m8d1c79c[m Update doxygen-deploy.yml
+[33mab0f112[m Auto-deploy Doxygen docs to gh-pages
+[33mda52e39[m Add index.html for GitHub Pages
+[33m7ac610b[m Clean gh-pages branch
+[33m4f90fe9[m[33m ([m[1;33mtag: [m[1;33mws3-static[m[33m)[m Add Worksheet 3 files
+[33me39bf03[m[33m ([m[1;33mtag: [m[1;33mws3-dynamic[m[33m)[m Add Doxygen comments to adder.h
+[33m06038f7[m Ignore Doxygen output (html/latex)
+[33m9b0cab3[m Worksheet5: add source files for Doxygen
+[33m1507e15[m Add Doxygen config and ignore generated HTML
+[33m3402a2c[m[33m ([m[1;33mtag: [m[1;33mex4-dynamic[m[33m, [m[1;33mtag: [m[1;33mex3-static[m[33m)[m Ignore release artefacts
+[33m0d5e458[m Ignore CMake build outputs
+[33m57fbcb3[m Add CMakeLists for Worksheet4 Exercise 3
+[33m232f585[m Worksheet4 Exercise 3: CMake static calc
+[33m8fa2f16[m Worksheet4: CMake hello example
+[33m3d6fd8a[m Ignore exercise release artefacts
+[33m62e03c9[m Exercise 5: dynamic library (DLL) export setup
+[33mb5ca6f8[m Exercise 5: dynamic library (DLL) setup
+[33m223e5ad[m Exercise 4: static library (libadder) + folder structure
+[33m384c04f[m Add calc (Exercise 3)
+[33m7628d25[m Add hello.cpp (Exercise 2)
+[33m1a714c4[m User 2 wants it that way
+[33mbb9a238[m User 1 wants it this way
+[33maf146c9[m User 1 says hello
+[33m061da34[m Add .gitignore
+[33mdb4eef9[m Resolved conflict
+[33mf375300[m Resolve merge conflict
+[33mf37696f[m Add devel priority
+[33mfb7dd66[m Added hi.and.date file
+[33mef376a9[m Inital Commit
