@@ -2,21 +2,24 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QString>
+#include <vtkSmartPointer.h>
+
+class vtkRenderer;
+class vtkGenericOpenGLRenderWindow;
+class vtkActor;
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
 class ModelPartList;
-class QModelIndex;
 
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = nullptr);
+    MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
 signals:
@@ -26,14 +29,19 @@ private slots:
     void handleButton1();
     void handleButton2();
     void handleTreeClicked(const QModelIndex &index);
-private slots:
-    void on_actionItem_Options_triggered(bool checked);
-    // IMPORTANT: keep ONLY this version (no bool) to avoid the “ambiguous overloaded” error
+
     void on_actionOpen_File_triggered();
+    void on_actionItem_Options_triggered();
 
 private:
     Ui::MainWindow *ui;
-    ModelPartList *partList = nullptr;
+
+    ModelPartList *partList;
+
+    // 🔥 VTK
+    vtkSmartPointer<vtkRenderer> renderer;
+    vtkSmartPointer<vtkGenericOpenGLRenderWindow> renderWindow;
+    vtkSmartPointer<vtkActor> actor;
 };
 
 #endif // MAINWINDOW_H
